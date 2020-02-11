@@ -13,7 +13,6 @@ xrandr -s 1920x1080
 xrandr -s 0
 xrandr -s 1600x900
 xrandr -s 4
-<br>
 ### NetworkManager
 用于管理网络，用法：
 - nmcli：命令行。这是最常用的工具；
