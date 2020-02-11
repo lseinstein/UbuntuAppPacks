@@ -18,6 +18,7 @@ xrandr -s 4
 - nmcli：命令行。这是最常用的工具；
 - nmtui：在shell终端开启文本图形界面；
 - nm-connection-editor图形配置工具。
+---
 ## Notes
 按键追踪 screenkey </br>
 录屏 simplescreenrecorder </br>
