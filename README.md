@@ -1,7 +1,7 @@
 # UbuntuAppPacks
 ## i3-gaps
 i3-gaps是fork自i3wm的改进版。</br>
-安装组件
+**安装组件**
 - polybar
 </br>状态栏，取代i3-status，注意复制后需更改polybar.sh权限。
 - NetworkManager
