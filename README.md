@@ -46,3 +46,4 @@ xrandr -s 4
 ## Notes
 &emsp;按键追踪 screenkey </br>
 &emsp;录屏 simplescreenrecorder </br>
+&emsp;To try: lazygit </br>
