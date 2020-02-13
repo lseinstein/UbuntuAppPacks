@@ -1,7 +1,18 @@
 # UbuntuAppPacks
 ## st
-&emsp;simple terminal.Patches:dracula, srcollback.<br>
-&emsp;About scrollback, add to config.h as below:<br>
+&emsp;Simple terminal.Patches:dracula, srcollback.<br>
+
+- Install the font Source Code Pro
+推荐GitHub上面的项目主页上下载 Source Code Pro <br>
+`unzip SourceCodePro_FontsOnly-1.013.zip` 会生成一个SourceCodePro_FontsOnly-1.013的目录 <br>
+复制SourceCodePro_FontsOnly-1.013/OTF目录中的所有.otf文件到~/.fonts目录下，<br>
+再执行命令`fc-cache -f -v`，最后重启终端设置字体。<br>
+
+- Change the font to Source Code Pro by using:<br>
+`static char *font = "Source Code Pro:pixelsize=15:antialias=true:autohint=true";`
+
+
+- About scrollback, add to config.h as below:<br>
 ```
 	{ ControlMask,          XK_Page_Up,     kscrollup,      {.i =  1} },
 	{ ControlMask,          XK_Page_Down,   kscrolldown,    {.i =  1} },
