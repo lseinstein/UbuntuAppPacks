@@ -22,17 +22,45 @@ floating_modifier $mod
 #hide_edge_borders both
 
 # 自定义
+
+
+# Startups #
+exec --no-startup-id xrandr -s 4
+exec --no-startup-id xmodmap ~/.Xmodmap
+exec --no-startup-id feh --bg-scale ~/.config/wallpaper/1.jpg
+exec_always  fcitx
+exec --no-startup-id volumeicon
+exec_always --no-startup-id ~/.config/i3/polybar.sh
+#exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
+
+# 关闭屏保
+exec --no-startup-id xset s 0
+exec --no-startup-id xset dpms 0 0 0
+# exec_always --no-startup-id xcompmgr -Fcf -nc -t -5 &
+# exec_always --no-startup-id compton
+#exec_always compton -b
+
+
+# border pixel 2 for the focused window
+for_window [class="^.*"] border pixel 0
+
+# gaps
+gaps inner 5
+gaps outer 5
+
+
 #bindsym $mode+m exec emacs
 bindsym $mod+c exec google-chrome-stable
 bindsym $mod+m exec netease-cloud-music
 bindsym $mod+o exec xdg-open .
+bindsym $mod+p exec gnome-screensaver-command -l
 # 无边框：$mod+u
 # 普通模式：$mod+t
 bindsym $mod+t border normal
 bindsym $mod+u border none
 # 自动把打开的程序放到指定工作区
 assign [class="(?i)google-chrome-stable"] → 1
-assign [class="(?i)netease-cloud-music"] → 2
+assign [class="(?i)netease-cloud-music"] → 4
 assign [class="(?i)amule"] → 3
 
 # 暂存器使用
@@ -161,18 +189,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Startups #
-exec_always  fcitx
-exec --no-startup-id volumeicon
-exec_always --no-startup-id ~/.config/i3/polybar.sh
-#exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
-
-# 关闭屏保
-exec --no-startup-id xset s 0
-exec --no-startup-id xset dpms 0 0 0
-# exec_always --no-startup-id xcompmgr -Fcf -nc -t -5 &
-# exec_always --no-startup-id compton
-#exec_always compton -b
 
 # ========volume control===================
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
