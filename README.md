@@ -51,6 +51,11 @@ xrandr -s 4
 - `nmtui` ：在shell终端开启文本图形界面；
 - `nm-connection-editor` ：图形配置工具。
 
+#### import命令
+&emsp;截屏，系统自带命令：  
+`import xxx.jpg`  
+鼠标截取区域截图，图片保存在当前终端目录下，格式包括jpg,jpeg,png,gif,bmp等。
+
 ## ranger
 
 
