@@ -1,6 +1,7 @@
 # UbuntuAppPacks
 ## st
 &emsp;Simple terminal.Patches:dracula, srcollback.<br>
+&emsp;[Download here.](http://st.suckless.org/) <br>
 
 - Install the font Source Code Pro
 推荐GitHub上面的项目主页上下载 Source Code Pro <br>
