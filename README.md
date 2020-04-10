@@ -1,6 +1,7 @@
 # UbuntuAppPacks
 ## st
 &emsp;Simple terminal.Patches:dracula, srcollback.<br>
+&emsp;Download pathches using `wget http://st.suckless.org/patches/dracula/st-dracula-0.8.2.diff`<br>
 &emsp;[Download here.](http://st.suckless.org/) <br>
 
 - Install the font Source Code Pro
