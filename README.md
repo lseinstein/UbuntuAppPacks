@@ -60,6 +60,17 @@ xrandr -s 4
 `import xxx.jpg`  
 鼠标截取区域截图，图片保存在当前终端目录下，格式包括jpg,jpeg,png,gif,bmp等。
 
+#### udisksctl命令
+&emsp;安全弹出USB设备  
+查看usb设备：  
+sudo fdisk  -l  
+Example if my drive is /dev/sdb1:  
+udisksctl unmount -b /dev/sdb1  
+udisksctl power-off -b /dev/sdb  
+
+#### xdg-open命令
+&emsp;xdg-open . 在终端所在位置打开图形文件夹。  
+
 ## ranger
 
 
