@@ -62,14 +62,16 @@ xrandr -s 4
 
 #### udisksctl命令
 &emsp;安全弹出USB设备  
-查看usb设备：  
+```
+//  查看usb设备：  
 sudo fdisk  -l  
-Example if my drive is /dev/sdb1:  
+//  Example if my drive is /dev/sdb1:  
 udisksctl unmount -b /dev/sdb1  
 udisksctl power-off -b /dev/sdb  
+```
 
 #### xdg-open命令
-&emsp;xdg-open . 在终端所在位置打开图形文件夹。  
+&emsp;`xdg-open .` 在终端所在位置打开图形文件夹。  
 
 ## ranger
 
