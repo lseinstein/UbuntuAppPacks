@@ -83,9 +83,9 @@ udisksctl power-off -b /dev/sdb
 ---
 
 # WindowSoftwareTips
-##7-zip
-##FreeDownloadManager
-##HDT
+## 7-zip
+## FreeDownloadManager
+## HDT
 [HDT](https://github.com/HearthSim/Hearthstone-Deck-Tracker)
-##Airplay-SDK
+## Airplay-SDK
 [Airplay-SDK](https://github.com/xfirefly/Airplay-SDK)
