@@ -75,10 +75,17 @@ udisksctl power-off -b /dev/sdb
 
 ## ranger
 
-
----
-
 ## Notes
 &emsp;按键追踪 screenkey </br>
 &emsp;录屏 simplescreenrecorder </br>
 &emsp;To try: lazygit </br>
+
+---
+
+# WindowSoftwareTips
+##7-zip
+##FreeDownloadManager
+##HDT
+[HDT](https://github.com/HearthSim/Hearthstone-Deck-Tracker)
+##Airplay-SDK
+[Airplay-SDK](https://github.com/xfirefly/Airplay-SDK)
