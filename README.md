@@ -76,8 +76,9 @@ udisksctl power-off -b /dev/sdb
 ## ranger
 
 ## Notes
-&emsp;按键追踪 screenkey </br>
-&emsp;录屏 simplescreenrecorder </br>
+&emsp;screenkey 按键追踪 </br>
+&emsp;simplescreenrecorder 录屏 </br>
+&emsp;Ucloner 备份系统 </br>
 &emsp;To try: lazygit </br>
 
 ---
