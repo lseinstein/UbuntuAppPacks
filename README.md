@@ -49,6 +49,11 @@ xrandr -s 4
 ```
 - 保存分辨率设定可以把命令写进i3的配置中。<br>
 
+#### alsamixer
+&emsp;调整音量（系统自带）。用法：<br>
+在终端输入alsamixer，出现可视化音量调节界面，使用上下键调节。<br>
+
+
 #### NetworkManager
 &emsp;用于管理网络，用法：
 - `nmcli` ：命令行。这是最常用的工具；
