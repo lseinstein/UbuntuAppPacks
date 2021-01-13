@@ -53,6 +53,12 @@ xrandr -s 4
 &emsp;调整音量（系统自带）。用法：<br>
 在终端输入alsamixer，出现可视化音量调节界面，使用上下键调节。<br>
 
+#### xgamma
+&emsp;调节屏幕对比度参数gamma值（系统自带命令）。用法：<br>
+` xgamma -gamma 1.0`
+默认值是1.0。<br>
+
+
 
 #### NetworkManager
 &emsp;用于管理网络，用法：
